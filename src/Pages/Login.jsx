@@ -46,10 +46,9 @@ export default function Login() {
                     <span className="label-text">Email</span>
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     placeholder="email"
                     className="input input-bordered"
-                    required
                   />
                 </div>
                 <div className="form-control">
@@ -57,10 +56,9 @@ export default function Login() {
                     <span className="label-text">Password</span>
                   </label>
                   <input
-                    type="password"
+                    type="text"
                     placeholder="password"
                     className="input input-bordered"
-                    required
                   />
                   <label className="label">
                     <a href="#" className="label-text-alt link link-hover">
