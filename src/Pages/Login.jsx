@@ -40,7 +40,7 @@ export default function Login() {
               <h1 className="text-3xl font-bold">Login</h1>
             </div>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-              <form className="card-body">
+              <div className="card-body">
                 <div className="">
                   <label className="label">
                     <span className="label-text">Email</span>
@@ -82,7 +82,7 @@ export default function Login() {
                   <div className="divider">OR</div>
                   <button className="btn btn-primary">Login</button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
