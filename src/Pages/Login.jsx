@@ -41,7 +41,7 @@ export default function Login() {
             </div>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
               <form className="card-body">
-                <div className="form-control">
+                <div className="">
                   <label className="label">
                     <span className="label-text">Email</span>
                   </label>
@@ -51,7 +51,7 @@ export default function Login() {
                     className="input input-bordered"
                   />
                 </div>
-                <div className="form-control">
+                <div className="">
                   <label className="label">
                     <span className="label-text">Password</span>
                   </label>
